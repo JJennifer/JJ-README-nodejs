@@ -1,4 +1,4 @@
-// TODO: Create a function that returns a license badge based on which license is passed in
+// Function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
   let badge = ""
@@ -34,7 +34,9 @@ function renderLicenseSection(license) {
 // Function to generate markdown for README
 function generateMarkdown(data) {
   return `# ${data.title}
-  
+ 
+  ${renderLicenseBadge(data.license)}
+
   ## Table of Contents
   *[Description](#description)
   *[Installation](#installation)
@@ -56,11 +58,10 @@ function generateMarkdown(data) {
   ## Test
   ${data.test}
   ## Questions
-  * Github Username ${data.questions}
+  * Github Username: ${data.questions}
+  * Github Email: ${data.questions1}
 
   ${renderLicenseSection(data.license)}
-
-  ${renderLicenseBadge(data.license)}
 `;
 }
 

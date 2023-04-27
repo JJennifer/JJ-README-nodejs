@@ -1,4 +1,6 @@
-# fv
+# Jen
+ 
+  ![Mozilla license image](https://img.shields.io/badge/License-Mozilla-9cf.svg)
   
   ## Table of Contents
   *[Description](#description)
@@ -13,19 +15,18 @@
 
 
   ## Description
-  vdfv
+  edf
   ## Installation
-  dfsvdfv
+  sdfv
   ## Usage
-  dfv
+  vsdfv
   ## Contribution
-  vdsfv
+  vadf
   ## Test
-  vdf
+  adfv
   ## Questions
-  * Github Username vvsdfv
+  * Github Username: vadfv
+  * Github Username: vdfv
 
   ## License
-    MIT License
-
-  ![MIT license image](https://img.shields.io/badge/License-MIT-9cf.svg)
+    Mozilla Public License 2.0
