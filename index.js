@@ -1,7 +1,7 @@
 // Packages needed for this application
 const inquirer = require("inquirer");
 const fs = require("fs");
-const licensing = require("./utils/generateMarkdown");
+const licensing = require("./generateMarkdown");
 
 
 // Array of questions for user input
