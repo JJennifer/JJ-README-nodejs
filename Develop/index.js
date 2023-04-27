@@ -13,38 +13,45 @@ const questions = [
     },
     {
         type: "input",
-        name: "Description",
-        message: "What is your project about",
+        name: "description",
+        message: "What is your project about?",
     },
     {
         type: "input",
-        name: "Installation",
+        name: "installation",
         message: "How do you install your project?",
     },
     {
         type: "input",
-        name: "Usage",
+        name: "usage",
         message: "How and when would you use your project?",
     },
     {
-        type: "List",
-        name: "License",
+        type: "list",
+        name: "license",
         message: "Which licensing did you use?",
         choices: ["none", "Apache License 2.0", "MIT License", "Mozilla Public License 2.0"],
+        validate: license => {
+            if(license){
+                return true
+            } else {
+                return false
+            }
+        }
     },
     {
         type: "input",
-        name: "Contribution",
+        name: "contribution",
         message: "Did you receive any support?",
     },
     {
         type: "input",
-        name: "Test",
+        name: "test",
         message: "How did it test?",
     },
     {
         type: "input",
-        name: "Questions",
+        name: "questions",
         message: "What is your github username?",
     },
 ];
