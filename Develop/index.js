@@ -31,13 +31,6 @@ const questions = [
         name: "license",
         message: "Which licensing did you use?",
         choices: ["none", "Apache License 2.0", "MIT License", "Mozilla Public License 2.0"],
-        validate: license => {
-            if(license){
-                return true
-            } else {
-                return false
-            }
-        }
     },
     {
         type: "input",
